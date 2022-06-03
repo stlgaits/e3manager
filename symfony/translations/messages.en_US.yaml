@@ -1,0 +1,50 @@
+Client: Customer
+Clients: Customers
+Prenom: First name
+Prénom: First name
+Nom: Last Name
+Adresse: Address
+Email: Email
+Tel: Phone number
+Téléphone: Phone number
+Ajouté par: Added By
+Accueil: Home
+Dépenses en attente: Pending expenses
+Statistiques: Statistics
+Consultez ici la liste des notes de frais en attente de traitement: View pending expenses
+repas: meals
+trajet: trip
+trajets: trips
+Trajet: Trip
+Trajets: Trips
+frais: expenses
+utilisateur: user
+utilisateurs: users
+Utilisateurs: Users
+péage: toll
+hébergement: accomodation
+achat: spendings
+divers: other
+Statuts Frais: Expenses Status
+Types de Frais: Categories
+Frais: Expenses
+Bienvenue: Welcome
+Commentaire: Comment
+Catégorie: Category
+Commercial: Employee
+Montant: Amount
+Intitulé: Title
+Date de début: Start Date
+Date de fin: End Date
+Rôles: Roles
+Notes de frais: Expenses
+Langue: Language
+Statut: Status
+Photo: Proof
+en attente: pending
+rejeté: denied
+validé: approved
+remboursé intégralement: refunded
+partiellement remboursé: partially refunded
+clôturé: closed
+

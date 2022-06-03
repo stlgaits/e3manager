@@ -1,0 +1,28 @@
+##> vscode and other IDE parameters ## 
+.vscode
+/.idea/*
+##< vscode parameters ##
+###> local env file ###
+.env.local
+.env.local.php
+.env.prod
+.env.dev
+/.env.*.local
+###< env file ###
+###> symfony/framework-bundle ###
+/public/bundles/
+/var/
+/vendor/
+/var/cache/*
+/var/log/*
+/var/logs/*
+/var/sessions/*
+!var/cache/.gitkeep
+!var/logs/.gitkeep
+!var/sessions/.gitkeep
+###< symfony/framework-bundle ###
+# LexikJWTAuthenticationBundle
+/config/jwt/
+/config/jwt/*.pem
+
+/migrations

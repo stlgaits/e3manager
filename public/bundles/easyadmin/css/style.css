@@ -1,0 +1,123 @@
+/** FONTS **/
+
+/** PARAMETRES GLOBAUX **/
+body {
+    background-color:  #355070;
+}
+
+
+.btn-primary {
+    background-color: #eaac8b;
+    /* color: ;
+    border-color: ;
+    font-size: ;
+    width: ;
+    height: ; */
+
+}
+
+:root {
+    --body-bg:#355070;
+    --table-header-bg: #eaac8b;
+    
+}
+
+/** HEADER **/
+
+.main-header {
+    height: 12vh;
+}
+
+.main-header #header-logo a {
+    color: #F1FAEE;
+    max-width: 75px;
+    top:0:
+    left:0;
+}
+
+.main-header #header-logo img {
+   max-width: 150px!important;
+}
+
+
+/** SIDEBAR **/
+
+.main-sidebar {
+    padding: 0;
+    margin-top: 80px;
+}
+
+
+.sidebar-menu li {
+    margin-bottom: 3px;
+}
+
+.sidebar-menu .fa , .sidebar-menu a{
+    color: #eaac8b;
+   
+}
+
+.sidebar-menu li:not(.submenu-active).active {
+    display: inline-block;
+    width: 100%;
+  
+}
+
+.sidebar-menu li:not(.submenu-active).active .menu-icon, 
+.sidebar-menu li:not(.submenu-active).active a {
+    color: #F1FAEE;
+    background-color: #1D3557;
+}
+
+
+/** MAIN **/
+
+h1 {
+    color: #F1FAEE;
+}
+
+.content-header {
+    background-color: transparent;   
+}
+
+/** fléches*/
+.datagrid thead i {
+    color: #F1FAEE;
+}
+
+.datagrid thead .sorted i {
+    color: #1D3557;
+
+}
+
+.datagrid thead .sorted a{
+    font-weight: 900;
+}
+
+.badge.badge-secondary {
+    background-color: #eaac8b;
+}
+
+a {
+color: #6d597a;
+}
+
+.datagrid td.actions a:not(.dropdown-item){
+    color:#355070;
+    font-weight: bold;
+}
+
+.text-danger {
+    color: #e56b6f!important;
+}
+
+
+/**EDIT / CREATE PAGE **/
+
+.select2-container--bootstrap .select2-results__option--highlighted[aria-selected]{
+ color: var(--light);
+
+}
+
+
+/** FOOTER **/		

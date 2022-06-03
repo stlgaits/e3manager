@@ -1,0 +1,42 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+index:
+    path: /
+    controller: App\Controller\SecurityController::index
+    methods: GET|POST
+
+denied:
+    path: /denied
+    controller: App\Controller\SecurityController::denied
+
+registration:
+    path: /registration
+    controller: App\Controller\SecurityController::registration
+
+frais:
+    path: /frais
+    controller: App\Controller\FraisController::index
+
+client:
+    path: /client
+    controller: App\Controller\ClientController::index
+
+login:
+    path: /login
+    controller: App\Controller\SecurityController::login
+    methods: GET|POST
+
+api_login_check:
+    path: /apiee/login_check
+    methods: POST
+
+app_logout:
+    path: /logout
+    methods: GET
+
+gesdinet_jwt_refresh_token:
+    path: /apiee/token/refresh
+    controller: gesdinet.jwtrefreshtoken::refresh
+
