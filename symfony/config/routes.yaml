@@ -36,7 +36,7 @@ app_logout:
     path: /logout
     methods: GET
 
-gesdinet_jwt_refresh_token:
+api_refresh_token:
     path: /apiee/token/refresh
     controller: gesdinet.jwtrefreshtoken::refresh
 

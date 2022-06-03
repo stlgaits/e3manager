@@ -34,6 +34,5 @@ class ClientSubscriber implements EventSubscriberInterface
         if ($entity instanceof Client) {
             $entity->setAddedBy($this->security->getUser());
         }
-        // dd($entity);
     }
 }

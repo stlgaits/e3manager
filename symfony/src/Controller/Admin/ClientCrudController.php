@@ -39,25 +39,25 @@ class ClientCrudController extends AbstractCrudController
     }
 
 
-    public function configureCrud(Crud $crud): Crud
-    {
-        return $crud
-        ->setEntityLabelInSingular('Client')
-        ->setEntityLabelInPlural('Clients')
-        ->setSearchFields(['id', 'prenom', 'nom', 'adresse', 'email', 'tel', 'addedBy']);
-    }
+    // public function configureCrud(Crud $crud): Crud
+    // {
+    //     return $crud
+    //     ->setEntityLabelInSingular('Client')
+    //     ->setEntityLabelInPlural('Clients')
+    //     ->setSearchFields(['id', 'prenom', 'nom', 'adresse', 'email', 'tel', 'addedBy']);
+    // }
 
-    public function configureFields(string $pageName): iterable
-    {
-        return [
-            IdField::new('id')->hideOnForm(),
-            TextField::new('prenom', 'Prénom'),
-            TextField::new('nom'),
-            TextField::new('adresse'),
-            EmailField::new('email'),
-            TelephoneField::new('tel', 'Téléphone'),
-            AssociationField::new('addedBy', 'Ajouté par')
-                ->setTemplatePath('bundles/EasyAdminBundle/custom_field.html.twig')
-        ];
-    }
+    // public function configureFields(string $pageName): iterable
+    // {
+    //     return [
+    //         IdField::new('id')->hideOnForm(),
+    //         TextField::new('prenom', 'Prénom'),
+    //         TextField::new('nom'),
+    //         TextField::new('adresse'),
+    //         EmailField::new('email'),
+    //         TelephoneField::new('tel', 'Téléphone'),
+    //         AssociationField::new('addedBy', 'Ajouté par')
+    //             ->setTemplatePath('bundles/EasyAdminBundle/custom_field.html.twig')
+    //     ];
+    // }
 }
